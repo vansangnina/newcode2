@@ -1,0 +1,23 @@
+#nhantin{ width: 100%; float: left; padding-bottom: 20px; background: url('images/bg_nhantin.jpg') top center; position: relative; font-family: 'OpenSansRegular'; text-align: center; min-height: 318px; }
+#nhantin:before{ content: ''; width: 100%; height: 12px; position: absolute;left: 0px; top: -1px; background: url('images/bf_nhantin.png') top; z-index: 100; pointer-events: none;  }
+#nhantin:after{ content: ''; width: 100%; height: 12px; position: absolute;left: 0px; bottom: -1px; background: url('images/af_nhantin.png') bottom; z-index: 100; pointer-events: none;  }
+#nhantin h2{ font-family: 'SVNCookies';  font-size: 60px; color: #fff;font-weight: 100; }
+#nhantin .hotline{ color: #F6FF00; font-size: 24px; }
+#nhantin .hotline span{ font-size: 30px; font-family: 'OpenSansBold';  }
+#nhantin .mota{ font-size: 18px; padding: 20px 0px; color: #fff; }
+.nhantin{ width: 100%; float: left; padding-top: 20px;}
+.nhantin label{ font-size: 15px; font-weight: 100; text-align: center; font-family: 'RobotoCondensedBold'; font-size: 18px; color: #f35c9e; width: 100%; float: left; padding-bottom: 10px; }
+.dangkymail{ width: 100%; float: left;position: relative; margin: 0px 0px 0px 0px; display: grid; grid-template-columns: 2fr 2fr 2fr 1fr; grid-gap: 10px;}
+.dangkymail input{ padding: 9px; margin: 0px 0px 0px 0px; background: #CBC6BB;outline: none; border: 1px solid #fff; color: #000; height: 55px; line-height: 55px; border-radius: 5px}
+.dangkymail button#gui{text-transform: uppercase; background: #8721A5; border: none; outline: none; cursor: pointer;font-weight: bold; color: #fff; padding: 10px 20px; border: 1px solid #000000; font-family: 'OpenSansBold'; font-size: 16px; border-radius: 5px;}
+.dangkymail button#gui:hover{ background: #54086b;}
+.dangkymail button i{ font-size: 20px; margin-right: 5px; font-weight: bold; }
+.nhantin p{ width: 100%; float: left; color: #290f0b; padding:20px 0px 10px 0px; font-family: 'RobotoRegular'; font-size: 16px; font-style: italic}
+
+.dangky_tin input::-webkit-input-placeholder {color: #000;}
+.dangky_tin input:-moz-placeholder {color: #000;  }
+.dangky_tin input::-moz-placeholder {  color: #000;  }
+.dangky_tin input:-ms-input-placeholder {  color: #000;  }
+@media (max-width: 600px) {
+
+}

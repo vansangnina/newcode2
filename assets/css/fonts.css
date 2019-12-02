@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'RobotoRegular'; 
+    font-weight: 100;
+    src: url('../fonts/RobotoRegular/RobotoRegular.eot');
+    src: url('../fonts/RobotoRegular/RobotoRegular.eot') format('embedded-opentype'),
+         url('../fonts/RobotoRegular/RobotoRegular.woff2') format('woff2'),
+         url('../fonts/RobotoRegular/RobotoRegular.woff') format('woff'),
+         url('../fonts/RobotoRegular/RobotoRegular.ttf') format('truetype'),
+         url('../fonts/RobotoRegular/RobotoRegular.svg#RobotoRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'RobotoBold'; 
+    font-weight: 100 !important;
+    src: url('../fonts/RobotoBold/RobotoBold.eot');
+    src: url('../fonts/RobotoBold/RobotoBold.eot') format('embedded-opentype'),
+         url('../fonts/RobotoBold/RobotoBold.woff2') format('woff2'),
+         url('../fonts/RobotoBold/RobotoBold.woff') format('woff'),
+         url('../fonts/RobotoBold/RobotoBold.ttf') format('truetype'),
+         url('../fonts/RobotoBold/RobotoBold.svg#RobotoBold') format('svg');
+}
+
+@font-face {
+    font-family: 'RobotoLight';
+    font-weight: 100;
+    src: url('../fonts/RobotoLight/RobotoLight.eot');
+    src: url('../fonts/RobotoLight/RobotoLight.eot') format('embedded-opentype'),
+         url('../fonts/RobotoLight/RobotoLight.woff2') format('woff2'),
+         url('../fonts/RobotoLight/RobotoLight.woff') format('woff'),
+         url('../fonts/RobotoLight/RobotoLight.ttf') format('truetype'),
+         url('../fonts/RobotoLight/RobotoLight.svg#RobotoLight') format('svg');
+}
+
+@font-face {
+    font-family: 'RobotoCondensedBold'; 
+    font-weight: 100;
+    src: url('../fonts/RobotoCondensedBold/RobotoCondensedBold.eot');
+    src: url('../fonts/RobotoCondensedBold/RobotoCondensedBold.eot') format('embedded-opentype'),
+         url('../fonts/RobotoCondensedBold/RobotoCondensedBold.woff2') format('woff2'),
+         url('../fonts/RobotoCondensedBold/RobotoCondensedBold.woff') format('woff'),
+         url('../fonts/RobotoCondensedBold/RobotoCondensedBold.ttf') format('truetype'),
+         url('../fonts/RobotoCondensedBold/RobotoCondensedBold.svg#RobotoCondensedBold') format('svg');
+}
+
+@font-face {
+    font-family: 'RobotoBlack'; 
+    font-weight: 100;
+    src: url('../fonts/RobotoBlack/RobotoBlack.eot');
+    src: url('../fonts/RobotoBlack/RobotoBlack.eot') format('embedded-opentype'),
+         url('../fonts/RobotoBlack/RobotoBlack.woff2') format('woff2'),
+         url('../fonts/RobotoBlack/RobotoBlack.woff') format('woff'),
+         url('../fonts/RobotoBlack/RobotoBlack.ttf') format('truetype'),
+         url('../fonts/RobotoBlack/RobotoBlack.svg#RobotoBlack') format('svg');
+}
+
+@font-face {
+    font-family: 'Robotomedium'; 
+    font-weight: 100;
+    src: url('../fonts/Robotomedium/Robotomedium.eot');
+    src: url('../fonts/Robotomedium/Robotomedium.eot') format('embedded-opentype'),
+         url('../fonts/Robotomedium/Robotomedium.woff2') format('woff2'),
+         url('../fonts/Robotomedium/Robotomedium.woff') format('woff'),
+         url('../fonts/Robotomedium/Robotomedium.ttf') format('truetype'),
+         url('../fonts/Robotomedium/Robotomedium.svg#Robotomedium') format('svg');
+}
+
+@font-face {
+    font-family: 'SFUFuturaBook'; 
+    font-weight: 100;
+    src: url('../fonts/SFUFuturaBook/SFUFuturaBook.eot');
+    src: url('../fonts/SFUFuturaBook/SFUFuturaBook.eot') format('embedded-opentype'),
+         url('../fonts/SFUFuturaBook/SFUFuturaBook.woff2') format('woff2'),
+         url('../fonts/SFUFuturaBook/SFUFuturaBook.woff') format('woff'),
+         url('../fonts/SFUFuturaBook/SFUFuturaBook.ttf') format('truetype'),
+         url('../fonts/SFUFuturaBook/SFUFuturaBook.svg#SFUFuturaBook') format('svg');
+}
+@font-face {
+    font-family: 'SFUFuturaHeavy'; 
+    font-weight: 100;
+    src: url('../fonts/SFUFuturaHeavy/SFUFuturaHeavy.eot');
+    src: url('../fonts/SFUFuturaHeavy/SFUFuturaHeavy.eot') format('embedded-opentype'),
+         url('../fonts/SFUFuturaHeavy/SFUFuturaHeavy.woff2') format('woff2'),
+         url('../fonts/SFUFuturaHeavy/SFUFuturaHeavy.woff') format('woff'),
+         url('../fonts/SFUFuturaHeavy/SFUFuturaHeavy.ttf') format('truetype'),
+         url('../fonts/SFUFuturaHeavy/SFUFuturaHeavy.svg#SFUFuturaHeavy') format('svg');
+}
+
+@font-face {
+    font-family: 'SFUHelveticaBold'; 
+    font-weight: 100;
+    src: url('../fonts/SFUHelveticaBold/SFUHelveticaBold.eot');
+    src: url('../fonts/SFUHelveticaBold/SFUHelveticaBold.eot') format('embedded-opentype'),
+         url('../fonts/SFUHelveticaBold/SFUHelveticaBold.woff2') format('woff2'),
+         url('../fonts/SFUHelveticaBold/SFUHelveticaBold.woff') format('woff'),
+         url('../fonts/SFUHelveticaBold/SFUHelveticaBold.ttf') format('truetype'),
+         url('../fonts/SFUHelveticaBold/SFUHelveticaBold.svg#SFUHelveticaBold') format('svg');
+}
+
+@font-face {
+    font-family: 'SFUInsigniaRegular'; 
+    font-weight: 100;
+    src: url('../fonts/SFUInsigniaRegular/SFUInsigniaRegular.eot');
+    src: url('../fonts/SFUInsigniaRegular/SFUInsigniaRegular.eot') format('embedded-opentype'),
+         url('../fonts/SFUInsigniaRegular/SFUInsigniaRegular.woff2') format('woff2'),
+         url('../fonts/SFUInsigniaRegular/SFUInsigniaRegular.woff') format('woff'),
+         url('../fonts/SFUInsigniaRegular/SFUInsigniaRegular.ttf') format('truetype'),
+         url('../fonts/SFUInsigniaRegular/SFUInsigniaRegular.svg#SFUInsigniaRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'UVNAiCapNangRegular'; 
+    font-weight: 100;
+    src: url('../fonts/UVNAiCapNangRegular/UVNAiCapNangRegular.eot');
+    src: url('../fonts/UVNAiCapNangRegular/UVNAiCapNangRegular.eot') format('embedded-opentype'),
+         url('../fonts/UVNAiCapNangRegular/UVNAiCapNangRegular.woff2') format('woff2'),
+         url('../fonts/UVNAiCapNangRegular/UVNAiCapNangRegular.woff') format('woff'),
+         url('../fonts/UVNAiCapNangRegular/UVNAiCapNangRegular.ttf') format('truetype'),
+         url('../fonts/UVNAiCapNangRegular/UVNAiCapNangRegular.svg#UVNAiCapNangRegular') format('svg');
+}

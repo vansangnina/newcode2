@@ -1,0 +1,8 @@
+#chonchungtoi{ width: 100%; float: left; margin: 30px 0px 0px 0px; padding: 30px 0px 0px 0px; background: url('images/bg_chon.png') no-repeat; min-height: 500px }
+#chonchungtoi .owl_chonchungtoi{ margin-left: -10px; margin-right: -10px; }
+#chonchungtoi .owl_chonchungtoi li{ width: 50%; float: left; padding: 30px 10px; }
+#chonchungtoi .owl_chonchungtoi li i{  float: left; color: #00a8ff; margin: 10px 20px 10px 0px; border: 1px dotted #333; padding: 25px; border-radius: 100%; font-size: 36px; }
+#chonchungtoi .owl_chonchungtoi li img{ float: left ; margin-right: 10px; margin-bottom: 20px; }
+#chonchungtoi .owl_chonchungtoi li h3{ font-family: 'RobotoBold';  text-transform: uppercase; margin: 0px 0px 5px 0px; color: #fff; font-size: 13px; }
+#chonchungtoi .owl_chonchungtoi li p{ font-family: 'RobotoRegular'; color: #cccccc; font-size: 13px;  }
+#chonchungtoi .title h4{ font-family: 'OpenSansExtraBold'; text-transform: uppercase; font-size: 22px; color: #fff }

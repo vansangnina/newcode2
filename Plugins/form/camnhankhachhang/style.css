@@ -1,0 +1,44 @@
+/* Cảm nhận */
+.camnhan_tk{width: 55%;display: inline-block;padding: 0 0 0 30PX;}
+.camnhan_tk .owl_camnhan{width: 100%;display:  inline-block;}
+.camnhan_tk .owl_camnhan .owl-controls{position: absolute;b;bottom: 25px;left: 45px;}
+.camnhan_tk .owl_camnhan> h4{font-size:  33px;}
+.camnhan_tk .owl_camnhan li{width: 100%;display: inline-block;padding: 10px 20px;border: 1px solid #ddd;min-height: 325px;}
+.camnhan_tk .owl_camnhan li > p{font-family: OpensansBold;font-style: italic;font-size: 16px;color: #000000;}
+.camnhan_tk .owl_camnhan li .thongtin_kh{
+  float: right;
+  display: flex;
+  flex-wrap:  wrap;
+}
+.camnhan_tk .owl_camnhan li .img{width: 110px;margin: 0 0 0 15px;}
+.camnhan_tk .owl_camnhan li .img img{
+    border-radius: 50%;
+    float: right;
+}
+.camnhan_tk .owl_camnhan li .noidung{
+    width: 100%;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    padding: 20px 0;
+    text-indent:  40px;
+    text-align:  justify;
+    background: url('images/ngoac.png') no-repeat left 10px;
+}
+.camnhan_tk .owl_camnhan li .noidung img{float: left;padding: 0 20px 0 0;}
+.camnhan_tk .owl_camnhan li .noidung h3{
+    font-size: 17px;
+    font-family: RobotoBold;
+    color: #181818;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.camnhan_tk .owl_camnhan li .tt {padding: 35px 0 0 0;}
+.camnhan_tk .owl_camnhan li .tt p{font-size: 16px;color: #005399;font-family: OpensansBold;text-transform:  uppercase;}
+.camnhan_tk .owl_camnhan li .tt p:nth-child(2){
+    font-family: OpensansRegular;
+    color: #000000;
+    font-size: 14px;
+    font-style:  italic;
+    text-transform:  unset;
+}

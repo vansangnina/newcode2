@@ -1,0 +1,17 @@
+#sanpham_tb{ width: 100%; float: left; }
+.hidden_tab{ width: 100%; float: left; display: none }
+.hidden_tab.active{ display: block; }
+.hidden_tab .xemthem{ width: 100%; float: left; text-align: center; padding: 30px 0px; }
+.hidden_tab .xemthem a{ display: inline-block; padding: 10px 30px; color: #fff; background: #CA9339; text-transform: uppercase; }
+.tags_nb{ width: 100%; float: left; text-align: center; margin-bottom: 20px;}
+.tags_nb li{ display: inline-block; padding: 0px 10px; }
+.tags_nb li a{ font-family: 'UVNAiCapNangRegular'; font-size: 20px; color: #383737;  text-transform: uppercase; }
+.tags_nb li a.active{ color: #c67d05; }
+
+@media (max-width: 970px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 500px) {
+
+}

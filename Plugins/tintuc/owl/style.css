@@ -1,0 +1,34 @@
+/*---------------Tin tức---------------*/
+#tintuc{ margin-bottom: 30px; }
+.tintuc_hot{ width: 100%; float: left; }
+.tintuc_hot .box_hot{ width: 45%; float: left; position: relative; }
+.tintuc_hot .box_hot img{ float: left;  }
+.tintuc_hot .box_hot h3{ padding: 10px 0px; font-size: 14px; font-family: 'RobotoBold';  font-weight: 100; width: 100%; float: left; }
+.tintuc_hot .box_hot h3 a{ font-family: 'RobotoBold';  text-transform: capitalize; color: #2f2f2f; }
+.tintuc_hot .box_hot p{ font-family: 'RobotoRegular'; }
+.tintuc_hot .box_hot h3 a:hover{color: #FE0000;}
+.tintuc_hot .box_hot .effect-v3{ float: left; margin-right: 20px; }
+.tintuc_hot .box_hot .chitiet a{ display: inline-block; font-size: 13px; border: 2px solid #333;font-family: 'RobotoRegular'; padding: 10px 20px; text-transform: uppercase; color: #333 }
+.tintuc_hot .box_hot .chitiet a:hover{ border: 2px solid #FE0000; color: #FE0000 }
+
+.tintuc_hot .hotnew{ width: 100%; float: right; position: relative; }
+.tintuc_hot .hotnew li{ width: 100%; float: left; padding-bottom: 10px; text-align: justify; }
+.tintuc_hot .hotnew li a img{ float: left; margin: 0px 0px 0px 0px; float: left; }
+.tintuc_hot .hotnew li:nth-child(even) a img{ float: right; margin: 0px 0px 0px 10px;  }
+.tintuc_hot .hotnew li a{ font-family: 'SFUHelveticaBold';  margin-bottom: 5px; font-size: 14px; }
+.tintuc_hot .hotnew li a span{ float: right }
+.tintuc_hot .hotnew li p{ font-size: 13px; font-family: 'OpenSansRegular';  }
+.tintuc_hot .hotnew a{ color: #333; }
+.tintuc_hot .hotnew li:hover a{ color: #c72020;text-decoration: underline}
+.tintuc_hot .hotnew li:hover img{filter:brightness(120%); -webkit-filter:brightness(120%);}
+.tintuc_hot .hotnew .owl-controls{ display: none; }
+.tintuc_hot .tt_new{ width: 100%; float: left; padding: 20px 5px 20px 5px; font-size: 13px; text-align: center; border: 1px solid #EBEBEB }
+.tintuc_hot .tt_new h3{ text-transform: uppercase; margin-bottom: 10px; }
+.tintuc_hot .tt_new p{ color: #666; }
+.tintuc_hot .ngaytao{ position: absolute; top: 0px; left: 0px; background: rgba(0, 0, 0,.6); color: #E5F7A3; padding: 10px 0px; z-index: 1; font-weight: bold; font-size: 18px; width: 60px; text-align: center; }
+.tintuc_hot .ngaytao span{ text-transform: uppercase; display: block }
+
+@media (max-width: 600px) {
+	.tintuc_hot .box_hot,.tintuc_hot .hotnew{ width: 100%; }
+	.tintuc_hot .hotnew{ padding: 20px 0px 0px 0px; }
+}

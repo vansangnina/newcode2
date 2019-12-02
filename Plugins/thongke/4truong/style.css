@@ -1,0 +1,8 @@
+.thongke{color: #fff;float: right; padding-top: 8px; font-size: 13px; width: 100%; max-width: 300px; border-radius: 20px; border: 1px dotted #7F7F7F; padding: 30px 30px 30px 40px; margin-top: 20px;}
+.thongke h4{ text-transform: uppercase; font-weight: 100;font-family: 'OpenSansBold';  margin-bottom: 10px; }
+.thongke ul{ list-style: none; margin: 0px; padding: 2px 0px 0px 0px; width: 100%; float: left; background: url('images/thongke.png') no-repeat;  }
+.thongke ul li{ color: #fff; display: block; padding: 5px 0px 5px 40px;}
+.thongke ul li span{ color: #f0ff00 }
+@media (max-width: 768px) {
+	.thongke{ width: 100%; text-align: center; margin-right: 0px; }
+}

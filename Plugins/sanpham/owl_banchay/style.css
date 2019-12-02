@@ -1,0 +1,21 @@
+.product_km{ width: 100%; float: left; background: url('Assets/images/bg_khuyenmai.png') no-repeat; }
+.title_km{ text-align: center; color: #fff; width: 100%; float: left; padding: 10px 100px 10px 100px; }
+.title_km h4{ font-family: 'UVNAiCapNangRegular'; font-size: 30px; text-transform: uppercase; margin: 20px 0px 10px 0px; }
+.noibat_owl{ display: grid; grid-gap:20px; grid-template-columns: 1fr 1fr 1fr 1fr; width: 100%; float: left }
+.noibat_owl .itemnb .img{ border: 1px solid #fff; width: 100%; float: left }
+.noibat_owl .itemnb h3{ font-family: 'OpenSansRegular'; font-size: 16px; font-weight: 100; text-align: center; padding: 5px 10px; width: 100%; float: left }
+.noibat_owl .itemnb:hover h3 a{ color: #F6FF00;text-decoration: underline }
+.noibat_owl .itemnb h3 a{ color: #fff; } 
+.noibat_owl .itemnb p{ color: #fff; font-size: 16px; color: #fcff00; text-align: center; padding-top: 5px; }
+.noibat_owl .itemnb p span{ font-family: 'OpenSansBold';}
+.thanh_nb{ width: 100%; float: left; margin-bottom: 20px; background: url('images/icon_banh.png') no-repeat top center; padding: 50px 0px 0px 0px; text-align: center; margin:20px 0px 10px 0px}
+.thanh_nb h4{ color :#d773ff;  font-size:35px; position: relative;  text-transform: capitalize;font-weight: 100; font-family: 'ComicSansMSRegular';  }
+.product_nb .thanh_gt{ width: 100%; float: left; position: relative; text-align: center; }
+.product_nb .thanh_gt h2{ font-size: 48px;font-weight: 100; text-transform: capitalize; margin: 0px 0px 0px 0px; width: 100%; float: left;font-family: 'SVNCookies'; color:#fff; position: relative; padding: 0px 0px 30px 0px; text-transform: uppercase; }
+.noibat_owl .owl-dots{ display: none !important; }
+.noibat_owl .owl-prev{ position: absolute; left: -30px; top: 45%; width: 12px; height: 33px; background: url('Assets/images/left.png')no-repeat !important;  text-indent: -9999px; }
+.noibat_owl .owl-next{ position: absolute; right: -30px; top: 45%; width: 12px; height: 33px; background: url('Assets/images/right.png')no-repeat !important; text-indent: -9999px; }
+.noibat_owl .owl-nav{ margin-top: 20px; }
+@media (max-width: 768px) {
+
+}

@@ -1,0 +1,10 @@
+.lienket{float: right; padding: 5px 0px 0px 0px; text-align: center;}
+.lienket label{ float: left; font-weight: bold;  color: #fff; margin:5px 10px 0px 0px;  }
+.lienket li{ display: inline-block; }
+.lienket a{ margin:0px 0px 0px 0px; color: #4f4f4f; }
+.lienket a img{  margin: 0px 5px 0px 5px; }
+.lienket li img{ height: 32px;}
+.lienket a:hover{ opacity:0.7;}
+@media (max-width: 768px) {
+	.lienket{ padding: 20px 0px 0px 0px; }
+}

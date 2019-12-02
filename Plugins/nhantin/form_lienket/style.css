@@ -1,0 +1,20 @@
+#nhantin{ width: 100%; float: left; padding: 10px 0px; background: #EE7920; position: relative; font-family: 'SFUFuturaBook'; color: #fff }
+.nhantin{ width: 100%; float: left; padding: 20px 0px;}
+.nhantin label{ font-size: 15px; font-weight: 100; text-align: center; font-family: 'SFUFuturaBook'; font-size: 18px; color: #f35c9e; width: 100%; float: left; padding-bottom: 10px; }
+.dangkymail{ width: 100%; float: left;position: relative; margin: 0px 0px 0px 0px;}
+.dangkymail input{ width: 100%; float: left; padding: 9px; margin: 0px 0px 0px 0px; background: #fff;outline: none; border: 1px solid #fff; color: #000; height: 45px; line-height: 45px; border-radius: 30px;}
+.dangkymail button#gui{ width: 37px; height: 37px; background: url('images/send.png') no-repeat; border: none; outline: none; cursor: pointer; position: absolute; right: 7px; top: 4px; border-radius: 50%;}
+.dangkymail button#gui:hover{ opacity: 0.8;}
+.dangkymail button i{ font-size: 20px; margin-right: 5px; font-weight: bold; }
+.nhantin h4{ font-family: 'SFUFuturaBook';  font-size: 18px; font-weight: 100; }
+.nhantin p{ width: 100%; float: left; color: #290f0b; padding:10px 0px 0px 0px; font-size: 12px;}
+
+.dangky_tin input::-webkit-input-placeholder {color: #000;}
+.dangky_tin input:-moz-placeholder {color: #000;  }
+.dangky_tin input::-moz-placeholder {  color: #000;  }
+.dangky_tin input:-ms-input-placeholder {  color: #000;  }
+.lienket a{ float: right; margin-left: 5px; }
+.lienket h4{ float: right; margin: 8px 10px 0px 0px; }
+@media (max-width: 768px) {
+.lienket{ margin-top: 20px; }
+}

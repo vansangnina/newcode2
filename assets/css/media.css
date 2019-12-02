@@ -1,0 +1,169 @@
+@media (max-width: 1200px) {
+    .container{ width:100% !important; padding: 0px;}
+    #logo{ height: auto; background: none ;}
+    .web_name{ display: none; }
+    .tracuu_dh{ display: none; }
+    #main{ padding: 0px 10px 0px 10px; }
+    .khung_sp,.row{ margin: 0px; }
+    .row_uudai,.row_moinhat{ margin: 0px; }
+    #lh_chungtoi{ padding: 10px 10px; }
+    .icon_timkiem{ right: 10px !important; }
+    .hotro_top,.header_top,.product_nb,#nhantin,#copy{ padding-left: 10px; padding-right: 10px; }
+}
+@media (max-width: 970px) {
+	.lh_chungtoi{ width: 100%; }
+    #banner_mobile{ display: block;}
+   	#right,#content{ width: 100%; float: left; }
+    .slide_{ padding-left: 10px;}
+    .hotro_top h2{ display: none; }
+    .header_top{ height: auto; }
+    .thuonghieu_item{ width: 25% }
+    .row_bt{ width: 50%; }
+    .bottom{ padding: 10px; }
+    .thongtin_bt{ border-bottom: 1px solid #fff; margin-bottom: 10px; padding-bottom: 10px; }
+    #left{ display: none; }
+    #info{ width: 100%; }
+    .ngonngu{ right: 40%; }
+    #main_menu{ width: 100%; }
+    
+    .header_mm a{ display: block !important; }
+    .gioithieu,.hinhanh_gt{ width: 100%;padding: 5px;  }
+    .hinhanh_gt{ text-align: center; }
+    #gioithieu{ margin: 0px 0px 10px 0px; }
+    .bando_bt,.footer{ width: 100%; }
+    .footer{ padding: 10px; }
+    nav.menu_top{ display: none }
+    #slide_show{ width: 100%; }
+    #google_dich{ top: 40px; right: 12px; }
+    .album{ width: 33.333333% }
+    #danhmuc{ display: none }
+    .right_slide{ padding: 10px; }
+    .khung_sp,.noibat_owl{ grid-template-columns: 1fr 1fr 1fr !important; }
+    .dangkymail{ grid-template-columns: 1fr 1fr !important; }
+    #timkiem{ width: 100% !important; margin: 0px !important; }
+}
+
+@media (max-width: 768px) {
+
+    #logo{ width: 100%; margin: 0px; text-align: center; }
+    #banner{ width: 100%; padding: 0px; text-align: center; margin-bottom: 10px; }
+    .diachi_top{ width: 100%; }
+	.email_top{ display: none; }
+	 #left{ display: none; }
+   	.thongtin_tt{ width: 100%; }
+   	.ngonngu{ margin: 10px 10px 5px 0px;}
+    #slide_show{ margin: 0px 0px 0px 0px;}
+    .hotro_top{ position: relative }
+    #timkiem{ width: 100%; margin: 0px;position: absolute; top: 50px; }
+    #timkiem input{ width: calc(100% - 80px);  }
+    .tintuc_hot{ padding: 0px; }
+    #right{ display: none; }
+    .menu_gt{ width: 100%; }
+    .menu_gt li{ left: 20px; }
+    .gioithieu{ min-height: auto }
+    .thuonghieu_item{ width: 33.33% }
+    #copy{ padding: 10px; text-align: center; }
+    .thongke,.chinhsach{ width: 50%;}
+    .yahoo_ht{ background: #3dc700; padding: 10px 0px 10px 0px; }
+    .lienket{ width: 100%; padding-left: 20px;}
+    .video_s{ padding: 10px; }
+    .noidung_gt{ width: 100%}
+    #load_map,.diachi_map{ width: 100%; }
+    .box_new img{ width: 120px; }
+    .top_left,.top_right{ width: 100%; }
+    .top_right{ padding: 0px 10px 10px 0px;}
+    .hotro_top ul{ display: none }
+    .back_fix{ height: 200px}
+    .input-group{ padding-left: 0px;}
+    .menu_hinhanh ul,#hinhanh_top{ display: none;}
+    .menu_hinhanh_m{ display: block;}
+    .menu_hinhanh{ height: auto;min-height: 40px;}
+    .menu_hinhanh ul{ width: 100%; float: left; margin-top: 35px; background: #000}
+    .menu_hinhanh ul li{ width: 100%; float: left; background: none; border-bottom: 1px solid #333;}
+    .ddsmoothmenu ul li a{ width: 100%; float: left; }
+    .ddsmoothmenu{ height: auto;min-height: 40px; z-index: 1000; position: relative;}
+    .ddsmoothmenu ul{ width: 100%; float: left;  background: #011f83}
+    .ddsmoothmenu ul li ul{ position: relative; width: 100% !important; float: left;border-top: 1px solid #eee; }
+    .ddsmoothmenu ul li{ width: 100%; float: left; background: none; border-bottom: 1px solid #eee;}
+    .ddsmoothmenu ul li ul li a{ border-top: 0px !important; background: url(images/sao.png) no-repeat 10px 10px;}
+    .khung_2{ display: none;}
+    .amazingslider-nav-1{ display: none !important;}
+    #amazingslider-wrapper-1{ padding-right: 0px !important}
+    .khung_thongtin{ padding: 0px;   }
+    .box_new{ width: 100%; }
+    .dangnhap_top{ display: none; }
+    .giohang_top{ right: 10px; }
+    .thongtin_bt li{ }
+    .thongtin_bt h2{ font-size: 20px; }
+    .thongtin li{padding: 0px 0px 0px 30px; list-style: circle;}
+    .owl-carousel{ padding: 10px; }
+    .noidung{ padding: 10px; }
+    .noidung_gt{ padding: 0px; }
+    .item_dichvu img,.item_sanpham img,.item_kieutoc img{ width: 100%; }
+    #hinhanh_gt{ width: 100%; }
+    .item_sanpham{ width: 50%; }
+    .chi_address{padding-top: 10px !important; }
+    .item_chinhanh  img{ min-height: 150px; }
+    .margin_auto{ max-width: 100% !important }
+    .facebook{ width: 100%; padding: 10px 10px 0px 10px; }
+    .noidung_chon{ padding: 0px 10px; }
+    .hotro_tt{ width: 100%; }
+    .thongtin_bt{ width: 100%; padding: 10px; }
+    nav.menu_top{ display: none; }
+    .owl_quytrinh{ padding: 10px 10px; }
+    .home_mobile,.menu_mobile{ display: block; }
+    .tintuc_hot{ padding: 10px; }
+    #lienhe_bottom{ margin: 0px; padding: 5px; }
+    #lienhe_bottom p{ padding: 1px 0px 1px 0px; }
+    #lienhe_bottom p input, #lienhe_bottom p textarea{ padding: 4px; }
+    .thongtin_bg{ display: none }
+    .danhmuc_bt{ flex: 1 100%; padding-left: 10px; }
+    .facebook{ flex: 1 100%; }
+    .footer{ padding: 20px 0px 20px 0px; }
+    .toolbar{ display: block; }
+    .khungf_left,.khungf_right{ width: 100%; }
+    .khung_trai,.khung_phai{ width: 100% }
+    #footer{ padding-bottom: 50px; }
+
+
+}
+
+@media (max-width: 650px) {
+    .top_info{ display: none; }
+    .thanh_title h2:before{ display: none; }
+    .hotnew{ padding-left: 0px; }
+    .hotnew .ngayth{ display: none }
+
+}
+
+@media (max-width: 600px) {
+    #banner {  }
+    .khung_sp,.noibat_owl{ grid-template-columns: 1fr 1fr !important; }
+    .dangkymail{ grid-template-columns: 1fr !important; }
+}
+
+@media (max-width: 500px) {
+    .thuonghieu_item{ width: 50% }
+    .ku_1{ display: none;}
+    .menu_bt li{ float: left; width: 100%; }
+    .menu_bt li a{ float: left; padding: 5px 0px 5px 30px; width: 100%; text-align: left; border-bottom: 1px solid #2C55AF; background: url(images/sao.jpg) no-repeat 5px 10px;}
+    .menu_bt li:after{ border-left: 0px; }
+    .ngonngu{ right: 30%; }
+    .tencty{ font-size: 24px; }
+    .chi_address{ width: 100% !important; }
+    .row_uudai{ margin: 0px; }
+    .album{ width: 50%; }
+    .menubar{ padding: 0px; }
+    .form_lh{ padding: 10px 0px; }
+    .thongke,.chinhsach{ width: 100%;}
+    .chinhsach{ padding-left: 20px; }
+    .giohang_form .cl_input{ width: 100% !important; }
+}
+@media (max-width: 380px) {
+    .menubar:before{ left: 0px; }
+    .khung_sp,.noibat_owl{ grid-template-columns: 1fr !important; }
+    .header_top{ margin-top: 0px; padding: 5px; }
+    .row_bt{ width: 100%; }
+    .album{ width: 100%; }
+    #google_dich{ position: relative; width: 100%; display: none }
+}

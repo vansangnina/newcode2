@@ -1,0 +1,16 @@
+#chonchungtoi{ width: 100%; float: left; margin: 30px 0px 0px 0px; padding-bottom: 30px; }
+.row_chonchungtoi{ width: 100%; float: left;  background: url('images/chonchungtoi.png') no-repeat top left; background-size: 100% 100%; }
+.row_chonchungtoi .left_chon{ width: 50%; float: left; background: rgba(0, 0, 0,0.6);min-height: 485px; padding: 40px 20px 0px 60px; position: relative }
+.row_chonchungtoi .left_chon:after{ position: absolute; content: ''; height: 100%;  width: 160px; top: 0px; right: -160px; background: linear-gradient(to right top, rgba(0, 0, 0, 0.6) 50%, transparent 50%); }
+.row_chonchungtoi .left_chon h4{ font-family: 'SVNHemiHead'; color: #ECF400; font-size: 30px; margin-bottom: 20px; } 
+.row_chonchungtoi li{ width: 100%; float: left; color: #fff; }
+.row_chonchungtoi li i{  float: left; color: #fff; margin: 10px 20px 10px 0px; border: 1px solid #fff; width: 80px; height: 80px; line-height: 80px; text-align: center; border-radius: 100%; font-size: 36px; }
+.row_chonchungtoi li h3{ font-family: 'RobotoBold'; font-size: 18px; text-transform: uppercase; margin: 10px 0px 0px 0px;}
+.row_chonchungtoi li p{ font-family: 'RobotoRegular'; font-size: 14px; padding-top: 5px; }
+@media (max-width: 768px) {
+	.row_chonchungtoi .left_chon{ width: calc(100% - 180px); }
+}
+@media (max-width: 600px) {
+	.row_chonchungtoi .left_chon{ width:100%;    padding: 20px 20px 0px 20px; }
+	.row_chonchungtoi .left_chon:after{ display: none;  }
+}

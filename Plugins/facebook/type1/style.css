@@ -1,0 +1,7 @@
+.khung_facebook{ margin-top: 0px; padding: 0px 0px 0px 0px; width: 280px; float: left;color: #d9b19b}
+.khung_facebook ul li a{ width: 100%; float: left; padding: 5px 0px 5px 0px; color: #747474; border-bottom: 1px solid #eee} 
+.facebook{ width: 100%; float: left;  overflow: hidden; padding:0px 0px 0px 0px;}
+.facebook h4{ color: #08597F; font-family: 'RobotoBold'; text-transform: uppercase; font-weight: 100; font-size: 15px; margin-bottom: 10px; padding-bottom: 10px; position: relative; margin-top: 10px;  }
+@media (max-width: 768px) {
+		.facebook{padding:20px 0px 0px 0px;}
+}

@@ -1,0 +1,7 @@
+#dh_hotro{ width: 100%; float: left; margin: 10px 0px 0px 0px;padding: 25px 0px 25px 0px; }
+#dh_hotro .owl_hotro li{ background: #fff; width: 100%; float: left; border: 1px solid #E1E1E1; margin-top: 45px; text-align: center; padding-bottom: 10px; }
+#dh_hotro .owl_hotro li div{ position: relative; text-align: center; margin-top: -55px; }
+#dh_hotro .owl_hotro li i{color: #00a8ff; margin: 10px 0px 10px 0px; border: 1px solid #E1E1E1; width: 85px; height: 85px; line-height: 85px; text-align: center; border-radius: 100%; font-size: 36px; display: inline-block; background: #fff; }
+#dh_hotro .owl_hotro li img{ float: left; margin-right: 10px; }
+#dh_hotro .owl_hotro li h3{ font-family: 'RobotoMedium'; font-size: 15px; text-transform: capitalize; padding: 5px 0px 0px 0px; color: #1e9fe9; }
+#dh_hotro .owl_hotro li p{ font-family: 'RobotoRegular'; font-size: 13px;padding-top: 5px; color: #888888 }

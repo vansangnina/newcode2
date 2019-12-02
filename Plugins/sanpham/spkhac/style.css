@@ -1,0 +1,9 @@
+#spkhac{ width: 100%; float: left; background: url('Assets/images/bg_nhantin.png') no-repeat; height: 375px; }
+.item_khac{ width: 100%; float: left; padding: 30px; background: rgba(0, 0, 0,0.35); border: 1px solid #868A8D; height: 290px; margin-top: 45px; color: #cfcfcf; }
+.item_khac h4{ color: #fff; text-transform: uppercase; font-family: 'UVNAiCapNangRegular';font-size: 22px; font-weight: 100; margin-bottom: 20px; }
+.item_khac a{ text-transform: uppercase; display: inline-block; color: #fff; font-family: 'RobotoBold'; margin-top: 40px;  }
+.item_khac a:hover{ color: #FFF200; }
+.item_khac #dktuvan{ width: 100%; padding: 10px; border: 1px solid #959494; background: none; }
+@media (max-width: 768px) {
+
+}

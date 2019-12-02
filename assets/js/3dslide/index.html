@@ -1,0 +1,323 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>jQuery Carousel 2 Sides Slider Plugin</title>	
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>	
+    <script type="text/javascript" src="js/jquery.carouselslider.min.js"></script>	
+	<link href="css/animation.css" rel="stylesheet" type="text/css" />		
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function(){
+			$('#carouel1').carouselSlider({
+
+				carouselOptions: {
+					autoplay: true,
+					autoplayInitialDelay: 1000, 
+					autoplayDuration: 5000,
+					autoplayPauseOnHover: true,
+					clickToFocus: true,
+					btnPrev: '.prevArrow',
+					btnNext: '.nextArrow',					
+					duration: 400,
+					minScale: 0.4
+				},
+
+				arrowAutoHide: true, /* auto hide the arrow button or not */
+				animateStyle: 'twirl',
+				triggerBy: 'click',  /* hover | click */			
+				clickIcons: true
+
+			});
+
+			$('#carouel2').carouselSlider({
+				carouselOptions: {
+					duration: 400
+				},				
+				animateStyle: 'flipX',
+				triggerBy: 'hover',  /* hover | click */			
+			});
+			
+
+		})				
+	</script>
+
+</head>
+
+<body>
+	<div id="wrap">
+    <h3 class="exampleTitle1">Example 1</h3>
+	<ul id="carouel1">
+		<li>
+			<div class="front">
+				<img src="images/front300.jpg" />
+			</div>
+
+			<div class="back">
+				<h4><a href="http://activeden.net/user/sike" class="butt">Visit My Profile</a></h4>
+				<p>This is the back div container. You can put other content here.</p>
+				<p>The arrow buttons is optional.</p>				
+				<p>You can trigger this container by <strong>click</strong> or <strong>hover</strong>.</p>								
+				<p>Support auto delay slideshow, paused when user hover.</p>								
+			</div>
+			
+		</li>
+		<li>
+			<div class="front">
+				<img src="images/front300.jpg" />
+			</div>
+
+			<div class="back">
+				<h4><a href="http://activeden.net/user/sike" class="butt">Visit My Profile</a></h4>
+				<p>This is the back div container. You can put other content here.</p>
+				<p>The arrow buttons is optional.</p>				
+				<p>You can trigger this container by <strong>click</strong> or <strong>hover</strong>.</p>								
+				<p>Support auto delay slideshow, paused when user hover.</p>								
+			</div>
+			
+		</li>
+		<li>
+			<div class="front">
+				<img src="images/front300.jpg" />
+			</div>
+
+			<div class="back">
+				<h4><a href="http://activeden.net/user/sike" class="butt">Visit My Profile</a></h4>
+				<p>This is the back div container. You can put other content here.</p>
+				<p>The arrow buttons is optional.</p>				
+				<p>You can trigger this container by <strong>click</strong> or <strong>hover</strong>.</p>								
+				<p>Support auto delay slideshow, paused when user hover.</p>								
+			</div>
+			
+		</li>
+		<li>
+			<div class="front">
+				<img src="images/front300.jpg" />
+			</div>
+
+			<div class="back">
+				<h4><a href="http://activeden.net/user/sike" class="butt">Visit My Profile</a></h4>
+				<p>This is the back div container. You can put other content here.</p>
+				<p>The arrow buttons is optional.</p>				
+				<p>You can trigger this container by <strong>click</strong> or <strong>hover</strong>.</p>								
+				<p>Support auto delay slideshow, paused when user hover.</p>								
+			</div>
+			
+		</li>
+		<li>
+			<div class="front">
+				<img src="images/front300.jpg" />
+			</div>
+
+			<div class="back">
+				<h4><a href="http://activeden.net/user/sike" class="butt">Visit My Profile</a></h4>
+				<p>This is the back div container. You can put other content here.</p>
+				<p>The arrow buttons is optional.</p>				
+				<p>You can trigger this container by <strong>click</strong> or <strong>hover</strong>.</p>								
+				<p>Support auto delay slideshow, paused when user hover.</p>								
+			</div>
+			
+		</li>
+		<li>
+			<div class="front">
+				<img src="images/front300.jpg" />
+			</div>
+
+			<div class="back">
+				<h4><a href="http://activeden.net/user/sike" class="butt">Visit My Profile</a></h4>
+				<p>This is the back div container. You can put other content here.</p>
+				<p>The arrow buttons is optional.</p>				
+				<p>You can trigger this container by <strong>click</strong> or <strong>hover</strong>.</p>								
+				<p>Support auto delay slideshow, paused when user hover.</p>								
+			</div>
+			
+		</li>
+		<li>
+			<div class="front">
+				<img src="images/front300.jpg" />
+			</div>
+
+			<div class="back">
+				<h4><a href="http://activeden.net/user/sike" class="butt">Visit My Profile</a></h4>
+				<p>This is the back div container. You can put other content here.</p>
+				<p>The arrow buttons is optional.</p>				
+				<p>You can trigger this container by <strong>click</strong> or <strong>hover</strong>.</p>								
+				<p>Support auto delay slideshow, paused when user hover.</p>								
+			</div>
+			
+		</li>
+		<li>
+			<div class="front">
+				<img src="images/front300.jpg" />
+			</div>
+
+			<div class="back">
+				<h4><a href="http://activeden.net/user/sike" class="butt">Visit My Profile</a></h4>
+				<p>This is the back div container. You can put other content here.</p>
+				<p>The arrow buttons is optional.</p>				
+				<p>You can trigger this container by <strong>click</strong> or <strong>hover</strong>.</p>								
+				<p>Support auto delay slideshow, paused when user hover.</p>								
+			</div>
+			
+		</li>
+		<li>
+			<div class="front">
+				<img src="images/front300.jpg" />
+			</div>
+
+			<div class="back">
+				<h4><a href="http://activeden.net/user/sike" class="butt">Visit My Profile</a></h4>
+				<p>This is the back div container. You can put other content here.</p>
+				<p>The arrow buttons is optional.</p>				
+				<p>You can trigger this container by <strong>click</strong> or <strong>hover</strong>.</p>								
+				<p>Support auto delay slideshow, paused when user hover.</p>								
+			</div>
+			
+		</li>
+		<li>
+			<div class="front">
+				<img src="images/front300.jpg" />
+			</div>
+
+			<div class="back">
+				<h4><a href="http://activeden.net/user/sike" class="butt">Visit My Profile</a></h4>
+				<p>This is the back div container. You can put other content here.</p>
+				<p>The arrow buttons is optional.</p>				
+				<p>You can trigger this container by <strong>click</strong> or <strong>hover</strong>.</p>								
+				<p>Support auto delay slideshow, paused when user hover.</p>								
+			</div>
+			
+		</li>
+		<li>
+			<div class="front">
+				<img src="images/front300.jpg" />
+			</div>
+
+			<div class="back">
+				<h4><a href="http://activeden.net/user/sike" class="butt">Visit My Profile</a></h4>
+				<p>This is the back div container. You can put other content here.</p>
+				<p>The arrow buttons is optional.</p>				
+				<p>You can trigger this container by <strong>click</strong> or <strong>hover</strong>.</p>								
+				<p>Support auto delay slideshow, paused when user hover.</p>								
+			</div>
+			
+		</li>
+
+		<li>			
+			<div class="front">
+				<img src="images/envato/card05.jpg" />
+			</div>
+			<div class="back">
+				<img src="images/envato/card05small.jpg" class="smallImg" />
+				<h4 class="caption">
+					Put the image caption here.
+				</h4>
+				<p class="caption">				
+					This is the back div container. You can put any content here.										
+					<a href="http://codecanyon.net/user/sike/">A link here</a>, consectetur adipisicing elit, sed do eiusmod tempor , quis nostrud exercitation ullamco laboris nisi proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>				
+				<p class="caption">			
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute olore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>						
+				<p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate  mollit anim id est laborum.
+				</p>		
+			</div>
+			
+		</li>
+		<li>
+			<div class="front">
+				<img src="images/envato/book02.jpg" />
+			</div>
+			<div class="back">
+				<img src="images/envato/book04.jpg" />
+			</div>
+		</li>
+		<li>
+			<div class="front">
+				<h4>This is the title</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="http://codecanyon.net/user/sike">Visit my profile</a> ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class="back">			
+				<img src="images/lychee/img4.jpg" />
+			</div>
+		</li>
+		<li>
+			<div class="front">
+				<img src="images/lychee/img5.jpg" />
+			</div>			
+		</li>
+		<li>
+			<div class="front">
+				<img src="images/lychee/img6.jpg" />
+			</div>			
+		</li>		
+		<div class="arrowButton">
+			<div class="prevArrow"></div><div class="nextArrow"></div>			
+		</div>
+	</ul>	
+	
+    <h3 class="exampleTitle2">Example 2</h3>
+	<ul id="carouel2">
+		<li>
+			<div class="front">
+				<img src="images/front.jpg" />
+			</div>
+			<div class="back">
+				<a href="http://codecanyon.net/user/sike"><img src="images/back.jpg" /></a>
+			</div>
+		</li>
+		<li>			
+			<div class="front">
+				<img src="images/envato/card17.jpg"  />
+			</div>
+			<div class="back">
+				<h4><a href="http://activeden.net/user/sike" class="butt">Visit My Profile</a></h4>								
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <a href="http://codecanyon.net/user/sike/">quis nostrud</a> exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			
+		</li>
+		<li>
+			<div class="front">
+				<img src="images/envato/card11.jpg" />
+			</div>
+			<div class="back">
+				<img src="images/envato/card15.jpg" />
+			</div>
+		</li>
+		<li>
+			<div class="front">
+				<img src="images/envato/card05small.jpg" class="smallImg" />				
+				<h4 class="caption">Or only the text content</h4>
+				<p class="caption">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class="back">
+				<img src="images/envato/card05.jpg" />
+			</div>
+		</li>
+		<li>
+			<div class="front">			
+				<img src="images/lychee/img4.jpg" />
+			</div>
+		</li>
+		<li>
+			<div class="front">
+				<img src="images/lychee/img5.jpg" />
+			</div>			
+		</li>
+		<li>
+			<div class="front">
+				<img src="images/envato/card18.jpg" />
+			</div>			
+		</li>				
+	</ul>	
+
+
+	</div><!-- #wrap -->	
+</body>
+</html>

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'UTMViceroyJF';
+    src: url('fonts/UTMViceroyJF.eot');
+    src: url('fonts/UTMViceroyJF.eot') format('embedded-opentype'),
+         url('fonts/UTMViceroyJF.woff2') format('woff2'),
+         url('fonts/UTMViceroyJF.woff') format('woff'),
+         url('fonts/UTMViceroyJF.ttf') format('truetype'),
+         url('fonts/UTMViceroyJF.svg#UTMViceroyJF') format('svg');
+}

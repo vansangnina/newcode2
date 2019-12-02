@@ -1,0 +1,13 @@
+#dichvu{ width: 100%; float: left; padding: 0px 0px 20px 0px;}
+.dv_info{ padding: 0px; text-align: center; color: #333333; font-family: 'RobotoRegular'; font-size: 13px;width: 100%; float: left; position: relative; }
+.owl_dichvu{ width: 100%; float: left; padding-bottom: 10px;}
+.owl_dichvu h3{ padding: 20px 0px 0px 0px; font-size: 15px; text-align: center; margin: 0px 0px 5px 0px; font-weight: 100; }
+.owl_dichvu h3 a{ text-transform: uppercase; color: #252525; font-family: 'Robotomedium'; }
+.owl_dichvu p{ color: #333333;} 
+.owl_dichvu h3:hover a{ text-decoration: underline; color: #BE8B36}
+.owl_dichvu .xemthem{ width: 100%; float: left; text-align: center; }
+.owl_dichvu .xemthem a{ display: inline-block; color: #fff; padding: 5px 20px 5px 20px; background: #BE8B36; margin-top: 10px;  font-size: 13px; }
+.owl_dichvu .xemthem a:hover{ background: #000 }
+@media (max-width: 768px) {
+
+}

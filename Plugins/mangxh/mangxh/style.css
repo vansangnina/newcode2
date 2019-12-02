@@ -1,0 +1,12 @@
+.mang_xh{ float: right; position: absolute; right: 0px; top: 0px;}
+.mang_xh h4{ font-size: 15px; color: #fff; float: left; font-family: 'RobotoRegular'; }
+.mang_xh p{ color: #fff; padding: 0px 10px 0px 0px; float: left; font-family: 'RobotoRegular'; }
+.mang_xh a{  margin:4px 10px 0px 1px; float: right;}
+.mang_xh a:hover{ opacity: 0.7;}
+.mang_xh img{ height: 36px;}
+.mang_xh ul{ color: #fff; }
+.mang_xh ul li{ display: inline-block; color: #fff; font-size: 12px; padding: 0px 5px 0px 5px; margin-top: 10px; } 
+.mang_xh ul li span{ color: #FFF600 }
+@media (max-width: 768px) {
+
+}

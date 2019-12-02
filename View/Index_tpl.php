@@ -1,0 +1,1 @@
+<h1 class="visit_hidden"><?=$row_setting['name_'.$lang]?></h1>

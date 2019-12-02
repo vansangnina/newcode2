@@ -1,0 +1,12 @@
+#listhome{ width: 100%; float: left; }
+.list_product{ width: 100%; float: left; padding: 20px 0px 20px 0px;}
+.list_owl{ width: 100%; float: left; padding-bottom: 10px; text-align: center;}
+.list_owl h3{ padding: 10px 0px 10px 0px; font-size: 13px; font-family: 'RobotoRegular'; font-weight: 100; }
+.list_owl h3 a{ text-transform: uppercase; color: #252525;  }
+.list_owl p{ color: #4c4c4c;} 
+.list_owl h3:hover a{ text-decoration: underline; color: #BE8B36}
+.list_owl .xemthem{ display: block; color: #fff; padding: 5px 20px; background: #333333; margin-top: 10px; position: absolute; left: 0px; right: 0px; z-index: 10; bottom: 0px; font-size: 13px; }
+.list_owl .xemthem:hover{ background: #000 }
+@media (max-width: 768px) {
+
+}

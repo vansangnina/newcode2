@@ -1,0 +1,17 @@
+.nhantin{ width: 100%; float: left; padding-top: 20px;}
+.nhantin label{ font-size: 15px; font-weight: 100; text-align: center; font-family: 'RobotoCondensedBold'; font-size: 18px; color: #f35c9e; width: 100%; float: left; padding-bottom: 10px; }
+.dangkymail{ width: 100%; float: left;position: relative; margin: 0px 0px 0px 0px;}
+.dangkymail input{ padding: 9px; margin: 0px 0px 0px 0px; background: rgba(255,255,255,1);outline: none; border: 1px solid #FAAC19; color: #333; height: 40px; line-height: 40px; width: calc(100% - 110px); float: left }
+.dangkymail button#gui{text-transform: uppercase; background: #FAAC19; border: none; outline: none; cursor: pointer;font-weight: bold; color: #fff; padding: 10px 20px; float: right }
+.dangkymail button#gui:hover{ background: #006bbd;}
+.gioitinh.active{ background: #006bbd !important; color: #fff !important; }
+.dangkymail button i{ font-size: 20px; margin-right: 5px; font-weight: bold; }
+.nhantin p{ width: 100%; float: left; color: #290f0b; padding:20px 0px 10px 0px; font-family: 'RobotoRegular'; font-size: 16px; font-style: italic}
+
+.dangky_tin input::-webkit-input-placeholder {color: #0fccf7;}
+.dangky_tin input:-moz-placeholder {color: #0fccf7;  }
+.dangky_tin input::-moz-placeholder {  color: #0fccf7;  }
+.dangky_tin input:-ms-input-placeholder {  color: #0fccf7;  }
+@media (max-width: 600px) {
+
+}

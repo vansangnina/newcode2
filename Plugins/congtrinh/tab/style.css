@@ -1,0 +1,17 @@
+#congtrinh .noidungct{ text-align: center; }
+#congtrinh .tags_ct{ text-align: center; margin: 20px 0px; }
+#congtrinh .tags_ct li{ display: inline-block; padding: 0px 1px; }
+#congtrinh .tags_ct li a{ font-family: 'RobotoBold'; text-transform: uppercase;display: block;padding: 7px 20px 5px 20px; color: #333333;  }
+#congtrinh .tags_ct li.active a,#congtrinh .tags_ct li:hover a{ background: #D5A333; color: #fff; }
+#congtrinh .item_ct{ width: 20%; float: left; padding: 2px; position: relative; display: none }
+#congtrinh .item_ct .mota_ct a{ position: absolute; left: 0px; top: 0px; right: 2px; bottom: 2px; background: rgba(0, 0, 0,0.5); z-index: 10; color: #fff; transform: scale(0); transition: 0.5s; pointer-events: none }
+#congtrinh .item_ct:hover .mota_ct a{transform: scale(1);}
+#congtrinh .item_ct .mota_ct h3{ text-transform: uppercase; text-align: center; margin-top: 70px; padding: 10px; }
+#congtrinh .item_ct .mota_ct p{ padding: 0px 10px; text-align: center; font-size: 13px; }
+#congtrinh .xemtatca{ width: 100%; float: left; text-align: center; margin: 20px 0px 20px 0px; }
+#congtrinh .xemtatca a{ display: inline-block; padding: 10px 50px; border: 1px solid #00626E; text-transform: uppercase; color: #00626E; }
+#congtrinh .xemtatca a:hover{ color: red; text-decoration: underline; border: 1px solid #EC8705; }
+#congtrinh .load_congtrinh{ width: 100%; float: left; transition: 0.5s; }
+@media (max-width: 768px) {
+
+}

@@ -1,0 +1,12 @@
+.product_hot{ width: 100%; float: left; }
+.dv_info{ padding: 10px; text-align: center; color: #333333; font-family: 'RobotoRegular'; font-size: 13px; background: #F2F2F2; width: 100%; float: left; padding-bottom: 40px; position: relative; min-height: 140px; }
+.owl_dichvu{ width: 100%; float: left;background: #fff; padding-bottom: 10px; min-height: 390px;}
+.owl_dichvu h3{ padding: 0px 0px 5px 0px; font-size: 16px; text-align: center; }
+.owl_dichvu h3 a{ text-transform: uppercase; color: #252525; font-family: 'RobotoBold'; }
+.owl_dichvu p{ font-size: 14px; color: #4c4c4c;} 
+.owl_dichvu h3:hover a{ text-decoration: underline; color: #FE0000}
+.owl_dichvu .xemthem{ display: block; color: #fff; padding: 5px 20px; background: #333333; margin-top: 10px; position: absolute; left: 0px; right: 0px; z-index: 10; bottom: 0px; font-size: 13px; }
+.owl_dichvu .xemthem:hover{ background: #000 }
+@media (max-width: 768px) {
+
+}

@@ -1,0 +1,203 @@
+Time : 10:30:55
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'stt' cannot be null
+Raw SQL : INSERT INTO table_contact(ten,diachi,dienthoai,email,tieude,noidung,stt,ngaytao) VALUES(:ten,:diachi,:dienthoai,:email,:tieude,:noidung,:stt,:ngaytao)
+
+Time : 10:29:36
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO table_contact(ten,diachi,dienthoai,email,tieude,noidung,stt,ngaytao,photo) VALUES(:ten,:diachi,:dienthoai,:email,:tieude,:noidung,:stt,:ngaytao,:photo)
+
+Time : 10:29:35
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO table_contact(ten,diachi,dienthoai,email,tieude,noidung,stt,ngaytao,photo) VALUES(:ten,:diachi,:dienthoai,:email,:tieude,:noidung,:stt,:ngaytao,:photo)
+
+Time : 10:29:34
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO table_contact(ten,diachi,dienthoai,email,tieude,noidung,stt,ngaytao,photo) VALUES(:ten,:diachi,:dienthoai,:email,:tieude,:noidung,:stt,:ngaytao,:photo)
+
+Time : 10:29:33
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO table_contact(ten,diachi,dienthoai,email,tieude,noidung,stt,ngaytao,photo) VALUES(:ten,:diachi,:dienthoai,:email,:tieude,:noidung,:stt,:ngaytao,:photo)
+
+Time : 10:28:59
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO table_contact(ten,diachi,dienthoai,email,tieude,noidung,stt,ngaytao,photo) VALUES(:ten,:diachi,:dienthoai,:email,:tieude,:noidung,:stt,:ngaytao,:photo)
+
+Time : 10:28:57
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO table_contact(ten,diachi,dienthoai,email,tieude,noidung,stt,ngaytao,photo) VALUES(:ten,:diachi,:dienthoai,:email,:tieude,:noidung,:stt,:ngaytao,:photo)
+
+Time : 10:24:52
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO table_contact(ten,diachi,dienthoai,email,tieude,noidung,stt,ngaytao,photo) VALUES(:ten,:diachi,:dienthoai,:email,:tieude,:noidung,:stt,:ngaytao,:photo)
+
+Time : 10:22:58
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO table_contact(ten) VALUES(:ten)
+
+Time : 10:22:46
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO table_contact(ten) VALUES(:ten)
+
+Time : 10:22:44
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO table_contact(ten) VALUES(:ten)
+
+Time : 10:17:04
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO table_contact(ten) VALUES(:ten)
+
+Time : 10:10:40
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ten' cannot be null
+Raw SQL : INSERT INTO table_contact(ten) VALUES(:ten)
+
+Time : 10:08:13
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO table_contact(ten,diachi,dienthoai,email,tieude,noidung,stt,ngaytao,photo) VALUES(:ten,:diachi,:dienthoai,:email,:tieude,:noidung,:stt,:ngaytao,:photo)
+
+Time : 10:08:12
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO table_contact(ten,diachi,dienthoai,email,tieude,noidung,stt,ngaytao,photo) VALUES(:ten,:diachi,:dienthoai,:email,:tieude,:noidung,:stt,:ngaytao,:photo)
+
+Time : 10:05:04
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO table_contact(ten,diachi,dienthoai,email,tieude,noidung,stt,ngaytao,photo) VALUES(:ten,:diachi,:dienthoai,:email,:tieude,:noidung,:stt,:ngaytao,:photo)
+
+Time : 10:04:14
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : INSERT INTO table_contact(ten) VALUES(:ten)
+
+Time : 10:02:15
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO table_contact(ten,diachi,dienthoai,email,tieude,noidung,stt,ngaytao,photo) VALUES(:ten,:diachi,:dienthoai,:email,:tieude,:noidung,:stt,:ngaytao,:photo)
+
+Time : 10:02:11
+SQLSTATE[HY093]: Invalid parameter number
+Raw SQL : INSERT INTO table_contact(ten,diachi,dienthoai,email,tieude,noidung,stt,ngaytao,photo) VALUES(:ten,:diachi,:dienthoai,:email,:tieude,:noidung,:stt,:ngaytao,:photo)
+
+Time : 10:01:38
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baovedaiphat.contact' doesn't exist
+Raw SQL : INSERT INTO contact(ten,diachi,dienthoai,email,tieude,noidung,stt,ngaytao,photo) VALUES(:ten,:diachi,:dienthoai,:email,:tieude,:noidung,:stt,:ngaytao,:photo)
+
+Time : 08:14:53
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : select * from table_lkweb where hienthi=1 and type=:mangxh order by stt,id desc
+
+Time : 08:14:51
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : select * from table_lkweb where hienthi=1 and type=:mangxh order by stt,id desc
+
+Time : 06:21:12
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select thumb_vi,photo_vi from table_photo where type=:favicon 
+
+Time : 06:21:11
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select thumb_vi,photo_vi from table_photo where type=:favicon 
+
+Time : 06:21:11
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select thumb_vi,photo_vi from table_photo where type=:favicon 
+
+Time : 06:21:10
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select thumb_vi,photo_vi from table_photo where type=:favicon 
+
+Time : 06:21:08
+SQLSTATE[HY000]: General error: 2031 
+Raw SQL : select thumb_vi,photo_vi from table_photo where type=:favicon 
+
+Time : 06:16:39
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : select thumb_vi,photo_vi from table_photo where type=:favicon 
+
+Time : 06:16:38
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : select thumb_vi,photo_vi from table_photo where type=:favicon 
+
+Time : 06:07:25
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baovedaiphat.product' doesn't exist
+Raw SQL : SELECT * FROM product WHERE type = :type
+
+Time : 06:00:18
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM #_product WHERE type = :type
+
+Time : 05:50:51
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : SELECT * FROM table_product WHERE type = :type
+
+Time : 05:50:51
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : SELECT * FROM table_product WHERE type = :type
+
+Time : 05:50:50
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : SELECT * FROM table_product WHERE type = :type
+
+Time : 05:49:41
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : SELECT * FROM table_product WHERE type = :type
+
+Time : 05:49:40
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : SELECT * FROM table_product WHERE type = :type
+
+Time : 05:49:34
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : SELECT * FROM table_product WHERE type = :type
+
+Time : 05:49:33
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : SELECT * FROM table_product WHERE type = :type
+
+Time : 05:49:32
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : SELECT * FROM table_product WHERE type = :type
+
+Time : 05:47:59
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : SELECT * FROM table_product WHERE type = :type
+
+Time : 05:47:51
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : SELECT * FROM table_product WHERE type = :type
+
+Time : 05:47:50
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : SELECT * FROM table_product WHERE type = :type
+
+Time : 05:46:34
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : SELECT * FROM table_product
+
+Time : 05:46:33
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : SELECT * FROM table_product
+
+Time : 05:46:04
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : SELECT * FROM table_product
+
+Time : 05:46:03
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : SELECT * FROM table_product
+
+Time : 05:44:32
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : SELECT * FROM table_product WHERE type = :type
+
+Time : 05:40:36
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : SELECT * FROM table_product WHERE type = :type
+
+Time : 05:40:34
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : SELECT * FROM table_product WHERE type = :type
+
+Time : 05:38:27
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : SELECT * FROM table_product WHERE type = :type
+
+Time : 05:37:35
+SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+Raw SQL : SELECT * FROM table_product WHERE type = :type

@@ -1,0 +1,10 @@
+.thongtin_bt{color: #fff; width: 100%; float: left;  }
+.thongtin_bt p{ padding: 0px 0px 0px 0px; }
+.noidung_bt{ width: 100%; float: left; padding: 0px 0px 20px 0px; }
+.thongtin_bt ul{ width: 100%; float: left; margin-top: 20px; }
+.thongtin_bt li i{ width: 30px; height: 30px; line-height: 30px; border: 1px solid #525252; text-align: center; color: #fff; border-radius: 5px; margin-right: 20px; }
+.thongtin_bt li{ padding: 2px 0px 15px 0px; font-family: 'RobotoLight';  color: #fff; font-size: 15px; }
+.thongtin_bt h2{ color: #CA9339; font-family: 'SFUFuturaHeavy'; font-size: 32px;  margin-bottom: 10px; text-transform: uppercase;}
+]@media (max-width: 768px) {
+.thongtin_bt h2{ height: auto; line-height: 1.5  }
+}

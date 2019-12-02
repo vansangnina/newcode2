@@ -1,0 +1,132 @@
+.g_muatiep{
+width:140px;
+float:left;
+background: #006485 ;
+height:30px;
+border:0;
+color:#fff;
+font-size: 14px;
+margin: 0px 10px 10px 0px;
+text-transform:capitalize;
+cursor:pointer;
+}
+.thanhtoan_nt{
+width:155px;
+float:right;
+height:33px;
+border:0;
+background: #006485;
+color:#000;
+text-shadow:-1px 1px #fff , 1px -1px #fff , -1px -1px #fff ,1px 1px #fff ;
+font-weight:bold;
+text-transform:capitalize;
+cursor:pointer;
+}
+.g_muatiep:hover{
+	background: #3C6B90;
+}
+.menu_giohang{
+background:#eeeeee ;
+height:30px;
+line-height:30px;
+color:#555;
+text-transform:uppercase;
+}
+
+.capnhat_full{ color: #FA0000}
+.giohang_tk{ margin-bottom: 10px; }
+.giohang_tk td{
+	text-align:center;
+	border-top:1px solid #CCCCCC;
+	line-height:30px;
+	padding-top:5px;
+}
+.tonggia td{
+background:#eeeeee;
+height:30px;
+color:rgba(255,255,0,1);
+line-height:30px;
+font-size:16px;
+text-align: right;
+color: #555;
+padding: 5px 10px 5px 10px;
+}
+.tonggia td b{ color: #FF0000 }
+.ahaa td{
+}
+.thanhtoan tr{
+	width:100%;
+	float:left;
+	padding:10px 0px 0px 10px;
+	clear:both;
+}
+.thanhtoan td{
+	float:left;
+}
+.thanhtoan input{
+	width:200px;
+	padding: 5px;	
+}
+.phuongthuc input{
+	width:auto;
+	height:auto;
+
+}
+.thanhtoan select{
+	padding:5px;
+}
+.thanhtoan textarea{
+	padding:10px;
+	width: 100%;
+}
+.tt_cart2{ color: #999; }
+.tt_cart2 span{ color: #006485 !important }
+.tt_cart2 button{color: #fff; padding: 0px 10px !important; border: 0px;}
+.titleinformation{ font-weight:bold; white-space:nowrap; height:30px; line-height:40px; text-transform:uppercase; color:rgba(0,102,153,1); width:100%; border-bottom:1px solid rgba(0,102,153,0.2); padding-bottom:5px;} 
+.titleinformation img{ float:left;}
+.shiping{ width: 100%; float: left; }
+.shiping input{ margin-right: 10px; float: left; }
+
+.shiping li{ cursor: pointer;}
+.shiping li:hover{color: #00687B; text-decoration: underline; }
+
+.phuongthuc{ margin:10px 0px 10px 0px;}
+.phuongthuc p{  font-weight:bold; float:left; width:100%; font-size:12px; margin-bottom:10px; color:#000; text-transform:uppercase;}
+.phuongthuc span{  }
+.phuongthuc input{ margin-right:10px; margin-left:0px; float:left; margin-top:3px;  cursor:pointer;}
+.phuongthuc img{ margin-right:20px;}
+.form_giohang td{ padding: 5px 0px 5px 0px;  }
+.form_giohang .tt_cart{text-align: left; font-family: Helvetica,Arial,sans-serif;}
+.form_giohang .img{ width: 100px; float: left; border: 1px solid #ccc; padding: 1px; margin: 15px 10px 10px 0px; }
+.form_giohang .tt_cart h3{text-align: left; color: #333; padding: 5px 0px 0px 0px;}
+.form_giohang .tt_cart span{ color: #FF0000; }
+.form_giohang .tt_cart:hover{opacity: 0.8;}
+.cl_input{ margin: 20px 0px 0px 0px; }
+.cl_input label{ width: 30%; float: left; font-weight: 100; }
+.cl_input label img{ width: 16px; margin-right: 5px; }
+.cl_input input{ width: 60%; float: left; padding: 2px; }
+.cl_area label{ width: 100%; float: left; margin: 15px 0px 10px 0px;font-weight: 100; }
+.cl_area label img{ width: 20px; margin-right: 5px; }
+.cl_area textarea{ width: 100%; height: 115px; padding: 5px; }
+.form_giohang input{ width: 50px; text-align: center; }
+.giohang_form .cl_input{ width: 50%; float: left; }
+.giohang_form .cl_input input{ padding: 5px; } 
+
+.dieukhoan{ width: 49%; float: left; border: 1px solid #ccc;margin: 10px 0px 10px 0px;}
+.dieukhoan h4{ padding: 5px 10px 5px 10px; background: #F2F2F2 ; text-transform: uppercase; color: #555}
+.xacnhan{width: 100%; float: right;}
+.xacnhan h4{ padding: 8px 10px 8px 10px; background: #F2F2F2 ; text-transform: uppercase; color: #333; margin-bottom: 10px;}
+.xacnhan *{ font-weight: 100; }
+.phuongthuc h4{ padding: 8px 10px 8px 10px; background: #F2F2F2 ; text-transform: uppercase; color: #333; margin-bottom: 10px;}
+.phuongthuc strong{ padding: 10px; width: 100%; float: left; border: 1px solid #ccc; display: none; white-space: pre; }
+.dongy { padding: 10px; width: 100%; float: left; font-weight: bold;}
+
+@media (max-width: 768px) {
+	.res_cart{ display: none; }
+	.form_giohang .img{ width: 50px; margin-top: 5px;}
+}
+@media (max-width: 500px) {
+	.cl_input label{ width: 100%; float: left; font-weight: 100; }
+	.cl_input input{ width: 100%; float: left; padding: 2px; }
+	..menu_giohang td{ font-size: 11px; text-transform: capitalize;  }
+}

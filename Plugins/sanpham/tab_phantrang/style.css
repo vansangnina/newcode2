@@ -1,0 +1,25 @@
+#sanpham_nb .noidungct{ text-align: center; }
+#sanpham_nb .tags_nb{ text-align: center; margin: 20px 0px; font-family: 'SVNCookies'; color: #f784b9  }
+#sanpham_nb .tags_nb li{ display: inline-block; padding: 0px 1px; }
+#sanpham_nb .tags_nb li a{text-transform: capitalize;display: block;padding: 0px 10px 0px 10px; color: #f784b9; font-size: 20px;  }
+#sanpham_nb .tags_nb li.active a,#sanpham_nb .tags_nb li:hover a{ color: #8721a5; }
+#sanpham_nb .item_ct{ width: 20%; float: left; padding: 2px; position: relative; }
+#sanpham_nb .item_ct .mota_ct a{ position: absolute; left: 0px; top: 0px; right: 2px; bottom: 2px; background: rgba(0, 0, 0,0.5); z-index: 10; color: #fff; transform: scale(0); transition: 0.5s; pointer-events: none }
+#sanpham_nb .item_ct:hover .mota_ct a{transform: scale(1);}
+#sanpham_nb .item_ct .mota_ct h3{ text-transform: uppercase; text-align: center; margin-top: 70px; padding: 10px; }
+#sanpham_nb .item_ct .mota_ct p{ padding: 0px 10px; text-align: center; font-size: 13px; }
+#sanpham_nb .xemtatca{ width: 100%; float: left; text-align: center; margin: 20px 0px 20px 0px; }
+#sanpham_nb .xemtatca a{ display: inline-block; padding: 10px 50px; border: 1px solid #00626E; text-transform: uppercase; color: #00626E; }
+#sanpham_nb .xemtatca a:hover{ color: red; text-decoration: underline; border: 1px solid #EC8705; }
+#sanpham_nb .load_sanpham_nb{ width: 100%; float: left; transition: 0.5s; }
+@media (max-width: 970px) {
+	#sanpham_nb .item_ct{ width: 25%; }
+}
+@media (max-width: 768px) {
+	#sanpham_nb .item_ct{ width: 33.3333333%; }
+}
+@media (max-width: 500px) {
+	#sanpham_nb .item_ct{ width: 50%; }
+	#sanpham_nb .item_ct .mota_ct h3{  font-size: 13px; margin-top: 20px}
+	#sanpham_nb .item_ct .mota_ct p{ font-size: 12px; }
+}

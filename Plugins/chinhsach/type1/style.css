@@ -1,0 +1,9 @@
+.chinhsach{ width: 100%; float: left; padding-left: 0px; }
+.chinhsach h4{ color: #fff; font-family: 'RobotoBold'; text-transform: uppercase; font-weight: 100; font-size: 15px; margin-bottom: 10px; padding-bottom: 10px; position: relative;  }
+.chinhsach li{width: 100%; float: left; padding: 5px 0px 5px 0px; }
+.chinhsach li a{ color: #fff;  font-size: 15px; font-family: 'RobotoLight'; }
+.chinhsach li a i{ padding-right: 5px; }
+.chinhsach li a:hover{ color: #FFF200; text-decoration: underline; }
+@media (max-width: 768px) {
+	.chinhsach{ padding: 20px 0px 0px 0px; }
+}

@@ -1,0 +1,15 @@
+#timkiem{  float: left;background: #000;width: 440px; overflow: hidden; border: 5px solid #000; position: relative; margin: 22px 0px 0px 90px; display: none; position: absolute; top: 0px; right: 0px; }
+#timkiem select{ border: 0px; width: 100px;}
+#timkiem input{width:100%;float:left;background:#fff;color: #000;border:0;margin: 0px 0px 0px 0px;padding:0px 40px 0px 20px; outline:none; border: 0px solid #e6e6e6; height: 45px;line-height: 45px; font-style: italic; transition: 0.5s;}
+#timkiem button{float:right;border:0px;color: #333;background:#FFBA4A;text-transform: uppercase;position: absolute; z-index: 10; right: 0px;top: 0px; font-weight: bold;cursor:pointer;outline:none; font-size: 16px; width: 45px; height: 45px; text-align: center; line-height: 45px;}
+.timkiem button:hover{ color:rgba(255,255,0,1);}
+#timkiem input::-webkit-input-placeholder {color: #999;}
+#timkiem input:-moz-placeholder {color: #999;}
+#timkiem input::-moz-placeholder { color: #999;}
+#timkiem input:-ms-input-placeholder {  color: #999;}
+#timkiem p{ font-size: 13px; color: #999; margin: 10px 0px 0px 0px; width: 100%; float: left; }
+.icon_timkiem{ width: 42px; height: 63px; float: left; background: url('images/icon_tk.png') no-repeat; position: absolute; right: 0px; top: 10px; z-index: 1; cursor: pointer; }
+
+@media (max-width: 970px) {
+	#timkiem{ right: auto; left: 10px; top: 7px; }
+}

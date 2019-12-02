@@ -1,0 +1,31 @@
+Time : 12:00:42
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name_' in 'field list'
+Raw SQL : select name_ from table_cate_list where shows=:shows and type=:type order by number,id desc
+
+Time : 12:00:30
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name_' in 'field list'
+Raw SQL : select name_ from table_cate_list where shows=:shows and type=:type order by number,id desc
+
+Time : 11:47:03
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'hienthi' in 'where clause'
+Raw SQL : select * from table_cate_list where hienthi=1 and type=:type order by number,id desc
+
+Time : 10:46:41
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stt' in 'order clause'
+Raw SQL :  select * from table_cate_list where shows=:shows and type=:type and highlight!=:highlight  order by stt,id desc 
+
+Time : 10:46:28
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'noibat' in 'where clause'
+Raw SQL :  select * from table_cate_list where shows=:shows and type=:type and noibat!=:noibat  order by stt,id desc 
+
+Time : 10:42:30
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'hienthi' in 'where clause'
+Raw SQL : select * from table_cate_list where hienthi=:hienthi and type=:type and noibat!=:noibat order by stt,id desc
+
+Time : 10:40:43
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codemoi.table_product_list' doesn't exist
+Raw SQL : select * from table_product_list where hienthi=:hienthi and type=:type and noibat!=:noibat order by stt,id desc
+
+Time : 10:32:37
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'codemoi.counter' doesn't exist
+Raw SQL : INSERT INTO counter (id, tm, ip,quocgia,trinhduyet,dentu,thietbi,hdh,website,hdh2) VALUES ('', '1529569957', '::1','','Chrome','','Computer','Windows 10','','Windows')

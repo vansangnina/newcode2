@@ -1,0 +1,9 @@
+.doitac_tk{width: 45%;float:left;}
+.doitac_tk .title h4{color: #2F7EDB; background: url('images/title.png') no-repeat bottom center;}
+.doitac_tk img{margin: 0;border: 1px solid #ddd;}
+.doitac_tk ul li{ width:  100%;   float: left;   text-align:  center;}
+.doitac_tk ul li a{display: inline-block; margin-bottom: 20px;}
+.doitac_tk h4 a{font-family: RobotoBold; font-size: 14px; color: #3c3c3c; text-transform: uppercase;}
+.doitac_tk h4:hover a{color: #cc0000;}
+.doitac_tk .owl-prev{ position: absolute; z-index: 10; left: -40px; top: 40px; width: 30px; height: 32px; background: url(images/left.png)no-repeat !important; float: left; text-indent: -9999px; }
+.doitac_tk .owl-next{ position: absolute; z-index: 10; right: -40px; top: 40px; width: 30px; height: 32px; background: url(images/right.png)no-repeat !important; float: left; text-indent: -9999px; }

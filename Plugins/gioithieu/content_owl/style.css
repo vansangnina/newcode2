@@ -1,0 +1,18 @@
+#gioithieu{ width: 100%; float: left; margin: 0px 0px 0px 0px; padding: 40px 0px;}
+.gioithieu{ width:50%; float:left;  margin:0px 0px 0px 0px; padding-right: 30px; font-family: 'OpenSansRegular';  font-size: 17px; text-align: center;}
+.gioithieu .thanh_gt{ width: 100%; float: left; position: relative; text-align: center; }
+.gioithieu .thanh_gt h2{ font-size: 48px;font-weight: 100; text-transform: capitalize; margin: 0px 0px 0px 0px; width: 100%; float: left;font-family: 'SVNCookies'; color:#8721a5; position: relative; padding: 0px 0px 30px 0px; text-transform: uppercase; }
+.xemthem_gt a{ display: inline-block;text-transform: capitalize; width: 215px; height: 71px; color:#fff; font-family: 'RobotoRegular'; position: relative; background: url('images/xemthem.jpg') no-repeat; text-align: center; line-height: 71px; margin-top: 30px;}
+.xemthem_gt a:hover{ color:#fff900  }
+/*.xemthem_gt a:after{ content: ''; position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%; height: 100%;border: 1px solid #CCCCCC; border-left:2px solid #FE0000; transform: skew(-30deg); }
+.xemthem_gt :hover:after{ border:1px solid #ff9600; }*/
+.hinhanh_gt{ width: 50%; float: right; margin: 0px 0px 0px 0px; padding: 30px 0px 0px 30px; position: relative; }
+.hinhanh_gt p{ background: #fff; box-shadow: 0px 0px 5px #333; padding: 10px; position: relative; z-index: 11; }
+.ha_gioithieu a{ width: 100%; float: left; margin-bottom: 20px; }
+/* .hinhanh_gt:after{ content: ''; width: 60%; background: #C5C5C5; position: absolute; z-index: 1;left: 0px; top: 0px; height: 100%; }
+ */@media (max-width: 768px) {
+	#gioithieu{ margin-top: 0px; }
+	.gioithieu{ width: 100%; padding-right: 0px; }
+	.gioithieu .thanh_gt h4{ height: auto; }
+	.hinhanh_gt{ width: 100%; text-align: center; }
+}

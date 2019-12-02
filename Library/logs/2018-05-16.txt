@@ -1,0 +1,3 @@
+Time : 12:25:41
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : select * from table_info where type=:type
